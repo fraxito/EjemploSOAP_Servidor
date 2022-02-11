@@ -9,7 +9,7 @@
 <body>
     <?php
     $cliente = new SoapClient(null, array(
-        'location'=>'http://127.0.0.1/EjemploSOAP_Servidor/',
+        'location'=>'http://127.0.0.1/EjemploSOAP_Servidor/servicioConsulta.php',
         'uri'=>'urn:webservices',
         'trace'=>1
     ));
